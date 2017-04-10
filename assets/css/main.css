@@ -745,6 +745,7 @@
 
 	input[type="text"],
 	input[type="password"],
+	input[type="date"],
 	input[type="email"],
 	select,
 	textarea {
@@ -774,6 +775,7 @@
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
+		input[type="date"]:invalid,
 		input[type="email"]:invalid,
 		select:invalid,
 		textarea:invalid {
@@ -782,6 +784,7 @@
 
 		input[type="text"]:focus,
 		input[type="password"]:focus,
+		input[type="date"]:focus,
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
@@ -828,6 +831,7 @@
 
 	input[type="text"],
 	input[type="password"],
+	input[type="date"],
 	input[type="email"],
 	select {
 		height: 2.75em;
@@ -1055,6 +1059,7 @@
 
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
+		#signup-form input[type="date"],
 		#signup-form input[type="email"] {
 			width: 18em;
 		}
@@ -1078,6 +1083,7 @@
 
 				#signup-form input[type="type"],
 				#signup-form input[type="password"],
+				#signup-form input[type="date"],
 				#signup-form input[type="email"] {
 					width: 100%;
 				}
