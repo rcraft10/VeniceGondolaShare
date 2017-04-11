@@ -45,9 +45,15 @@ h3 {
 /***** h4 is the hero text for mobile devices *****/
 
 h4{
+<<<<<<< HEAD
 	margin-top: 0px;
 	font-size: 45px;
     font-weight: 500;
+=======
+	margin-top: -50px;
+	font-size: 55px;
+    font-weight: 400;
+>>>>>>> parent of 61b3bd4... try margin 0px how does that look on mobile
     color: #eee;
     line-height: 50px;
    
