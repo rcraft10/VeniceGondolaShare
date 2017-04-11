@@ -16,7 +16,16 @@ a, a:hover, a:focus {
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-h1, h2 {
+h1 {
+	margin-top: 10px;
+	font-size: 55px;
+    font-weight: 500;
+    color: #555;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
 	margin-top: 10px;
 	font-size: 38px;
     font-weight: 100;
@@ -33,12 +42,14 @@ h3 {
     text-transform: uppercase;
 }
 
+/***** h4 is the hero text for mobile devices *****/
+
 h4{
 	margin-top: 0px;
-	font-size: 55px;
-    font-weight: 400;
+	font-size: 45px;
+    font-weight: 500;
     color: #eee;
-    line-height: 55px;
+    line-height: 50px;
    
 }
 
