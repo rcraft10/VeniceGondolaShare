@@ -38,7 +38,7 @@ h4{
 	font-size: 60px;
     font-weight: 100;
     color: #eee;
-    line-height: 50px;
+    line-height: 55px;
    
 }
 
@@ -47,7 +47,7 @@ h5{
 	font-size: 20px;
     font-weight: 100;
     color: #eee;
-    line-height: 20px;
+    line-height: 25px;
    
 }
 
@@ -236,6 +236,9 @@ ul.navbar-nav {
 .top-content .top-big-link {
 	margin-top: 35px;
 }
+
+
+
 
 
 /***** Features *****/
