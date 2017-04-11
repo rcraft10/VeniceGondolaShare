@@ -67,6 +67,7 @@ img { max-width: 100%; }
 .medium-paragraph {
 	font-size: 18px;
 	line-height: 32px;
+	text-align: left;
 }
 
 .colored-text { color: #66d6c5; }
