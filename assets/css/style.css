@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     color: #888;
     line-height: 30px;
@@ -39,6 +39,15 @@ h4{
     font-weight: 100;
     color: #eee;
     line-height: 50px;
+   
+}
+
+h5{
+	margin-top: 10px;
+	font-size: 20px;
+    font-weight: 100;
+    color: #eee;
+    line-height: 20px;
    
 }
 
@@ -127,7 +136,7 @@ img { max-width: 100%; }
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
 	background: #66d6c5;
-	font-size: 16px;
+	font-size: 17px;
     font-weight: 300;
     line-height: 16px;
     color: #fff;
@@ -142,7 +151,7 @@ img { max-width: 100%; }
 	padding: 16px 20px 0 20px;
 	background: #444;
 	background: rgba(0, 0, 0, 0.3);
-	font-size: 16px;
+	font-size: 17px;
     font-weight: 300;
     line-height: 16px;
     color: #fff;
@@ -172,7 +181,7 @@ img { max-width: 100%; }
 .navbar.navbar-no-bg { background: none; }
 
 ul.navbar-nav {
-	font-size: 16px;
+	font-size: 17px;
 	color: #fff;
 }
 
