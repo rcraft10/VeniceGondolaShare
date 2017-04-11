@@ -172,6 +172,12 @@ img { max-width: 100%; }
 
 /***** Top menu *****/
 
+@media (max-width: 767px) { 
+    .navbar{
+        display:none;
+    }
+}
+
 .navbar {
 	margin-bottom: 0;
 	background: #444;
