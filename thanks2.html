@@ -27,7 +27,49 @@
   <li><a href="mailto:?subject=Meet%20other%20Travelers%20-%20Save%20Money&body=Meet%20other%20travelers%20and%20share%20a%20gondola%20ride%20to%20Save%2050%25%20-%2080%25%20off%20standard%20rates!:%20http%3A%2F%2Fvenicegondolashare.com" target="_blank" title="Send email"><img alt="Send email" src="images/flat_web_icon_set/color/Email.png"></a></li>
 
 </ul>		
-			
+			<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+<!-- Firechat -->
+<link rel="stylesheet" href="https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.css" />
+<script src="https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.js"></script>
+
+<script>
+  function login() {
+    // Log the user in via Twitter
+    var provider = new firebase.auth.TwitterAuthProvider();
+    firebase.auth().signInWithPopup(provider).catch(function(error) {
+      console.log("Error authenticating user:", error);
+    });
+  }
+
+  firebase.auth().onAuthStateChanged(function(user) {
+    // Once authenticated, instantiate Firechat with the logged in user
+    if (user) {
+      initChat(user);
+    }
+  });
+</script>
+
+<button onclick="login()">Login with Twitter</button>
+
+<script>
+  function initChat(user) {
+    // Get a Firebase Database ref
+    var chatRef = firebase.database().ref("chat");
+
+    // Create a Firechat instance
+    var chat = new FirechatUI(chatRef, document.getElementById("firechat-wrapper"));
+
+    // Set the Firechat user
+    chat.setUser(user.uid, user.displayName);
+  }
+</script>
+
+<div id="firechat-wrapper"></div>
 
 
 		<!-- Scripts -->
