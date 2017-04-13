@@ -26,6 +26,11 @@ jQuery(document).ready(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	
+	/***************** Initiate Flexslider ******************/
+	$('.flexslider').flexslider({
+		animation: "slide"
+	});
+	
     /*
         Background slideshow
     */
