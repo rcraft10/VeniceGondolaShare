@@ -1603,12 +1603,41 @@ pre code {
     width: 1170px;
   }
 }
+
+.testimonial-slider-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .testimonial-slider-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .testimonial-slider-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .testimonial-slider-container {
+    width: 1170px;
+  }
+}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+.testimonial-slider-container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
