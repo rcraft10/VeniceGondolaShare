@@ -1,0 +1,55 @@
+ <div class="features-container section-container" id="intro">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+					
+					
+					
+<!-- Trying to add testimonial section from landing2 -->
+			<section class="testimonial-slider section-padding text-center" style="padding-bottom: 100px;>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 testimonial-slider">
+					                    <h2><strong>Happy</strong> Gondola Share Users</h2>	
+										
+									
+								
+								
+								
+								
+<!-- About us -->
+        <div class="about-us-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 about-us section-description wow fadeIn">
+	                    <h2><strong>About</strong> us</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-6 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/1.jpeg" alt="" data-at2x="assets/img/about/1.jpeg">
+		                </div>
+	                    <h3>Ryan Craft</h3>
+	                    <p>I hate overpriced, impersonal tour companies that charge you </p>
+	                    <div class="about-us-social">
+		                	<a href="#"><i class="fa fa-facebook"></i></a>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-6 about-us-box wow fadeInDown">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg">
+		                </div>
+	                    <h3>Lauren Craft</h3>
+	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+	                    <div class="about-us-social">
+		                	<a href="#"><i class="fa fa-facebook"></i></a>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </div>
+	                </div>
+	                
+	            </div>
+	        </div>
+        </div>
