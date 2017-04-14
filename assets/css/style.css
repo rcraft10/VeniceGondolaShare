@@ -368,13 +368,13 @@ ul.navbar-nav {
 }
 
 .great-support-box {
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .great-support-box-phone{
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: -40px;
+	margin-bottom: 0px;
 }
 
 .great-support-box-text {
@@ -383,7 +383,7 @@ ul.navbar-nav {
 	overflow: hidden;
 	text-align: left;
 }
-.great-support-box-text:first-child { margin-top: 20px; }
+.great-support-box-text:first-child { margin-top: -20px; }
 
 .great-support-box-text-left {
 	padding-left: 0;
